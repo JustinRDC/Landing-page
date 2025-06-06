@@ -1,7 +1,43 @@
+
 .first-container {
     background-color: #1F2937;
+    font-family: Roboto;
 }
 
 .third-container {
     background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.info {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.main-text {
+    font-size: 48px;
+    color: #F0FAF8;
+    font-weight: 900;
+}
+
+.info img {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+}
+
+* {
+    padding: 0 15px;
 }
