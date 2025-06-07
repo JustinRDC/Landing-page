@@ -10,34 +10,50 @@
 
 .header {
     display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    align-items: center
 }
 
 ul {
     display: flex;
     gap: 15px;
     list-style-type: none;
+    color: #E5E7EB;
 }
 
-.info {
+.first-container .info {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-}
 .main-text {
     font-size: 48px;
     color: #F0FAF8;
     font-weight: 900;
 }
+.button {
+    background-color: rgb(30, 139, 228);
+}
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
-.info img {
+.first-container .info img {
     width: 200px;
-    height: 40px;
+    height: 100px;
     align-self: center;
+    margin-left: 55px;
 }
 
-* {
-    padding: 0 15px;
+body {
+    width: 100%;
 }
+
